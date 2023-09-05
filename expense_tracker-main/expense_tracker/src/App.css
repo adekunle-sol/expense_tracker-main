@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main {
+    background-color: #fff;
+    width: 25%;
+    padding: 2rem;
+    margin: 0 auto;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.sub-header {
+  margin-bottom: 5px;
+}
+
+.your-balance {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.balance {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #808080;
+  margin-bottom: 15px;
+}
+
+.bal-header {
+  font-size: 1.3rem;
+}
+
+.element {
+  width: 50%;
+  padding: 10px;
+}
+
+.income_amount {
+  color: green;
+}
+
+.expense_amount {
+  color: red;
+}
+
+.vertical-seperator {
+  border-left: 1px solid black;
+  height: 60px;
+  /* padding: 1px; */
+}
+
+.history {
+  margin-bottom: 2rem;
+}
+
+.history-element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+
+  border: 1px solid #000;
+  border-radius: 10px;
+  border-right: 5px solid #ff0000;
+}
+
+.form {
+  margin-top: 10px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.input {
+  width: 100%;
+  height: 30px;
+  padding: 25px;
+  font-size: 16px;
+}
+
+.submit {
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  background-color: blueviolet;
+  border: none;
+}
